@@ -19,8 +19,8 @@ h1 {
 .header__gaia {
   background-image: url(../multimedia/background/background_Gaia.jpg); }
 
-main {
-  background-color: aquamarine; }
+p {
+  background-image: url(../../multimedia/background/pag_en_construccion.jpg); }
 
 footer {
   background-color: wheat; }
