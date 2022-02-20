@@ -1,0 +1,23 @@
+{
+  "name": "cuian-social-club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christopheer12/CuiaN-SociaL-CluB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christopheer12/CuiaN-SociaL-CluB/issues"
+  },
+  "homepage": "https://github.com/Christopheer12/CuiaN-SociaL-CluB#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
