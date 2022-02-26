@@ -1,0 +1,38 @@
+.footer__contacto{
+    bottom:0 ;
+    left: 100%;
+    text-align: center;
+    font-size:1.0em ;
+    
+}
+
+ 
+.facebook{
+    color: map-get($colores , facebook) ;
+    :hover{
+        color: map-get($colores , facebook) ;
+        @extend %hovers___Footer;}
+}
+
+
+.instagram {
+    color: map-get($colores , instagram) ;
+    :hover{
+        color: map-get($colores , instagram) ;
+        @extend %hovers___Footer;}
+}
+
+
+
+.youtube{
+    color: map-get($colores , youtube) ;
+    :hover{
+        color: map-get($colores , youtube) ;
+        @extend %hovers___Footer;}
+}
+.spotify{
+    color: map-get($colores , spotify) ;
+    :hover{
+        color: map-get($colores , spotify) ;
+        @extend %hovers___Footer;}
+}

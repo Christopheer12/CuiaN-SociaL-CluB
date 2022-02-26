@@ -14,6 +14,11 @@ p {
   font-size: 1.5rem;
   font-family: 'Merriweather', serif; }
 
+.facebook :hover, .instagram :hover, .youtube :hover, .spotify :hover {
+  transition: 1s;
+  transform: scale(2, 2);
+  z-index: 100; }
+
 body {
   font-size: 10px; }
 
@@ -69,3 +74,29 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.footer__contacto {
+  bottom: 0;
+  left: 100%;
+  text-align: center;
+  font-size: 1.0em; }
+
+.facebook {
+  color: #3b5998; }
+  .facebook :hover {
+    color: #3b5998; }
+
+.instagram {
+  color: #231F20; }
+  .instagram :hover {
+    color: #231F20; }
+
+.youtube {
+  color: #c4302b; }
+  .youtube :hover {
+    color: #c4302b; }
+
+.spotify {
+  color: #1DB954; }
+  .spotify :hover {
+    color: #1DB954; }
