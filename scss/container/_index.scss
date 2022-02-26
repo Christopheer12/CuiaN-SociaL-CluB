@@ -1,0 +1,26 @@
+.contenedor{
+    .contenedor_logo{
+        display: flex;
+        justify-content: center;
+        .logo{
+            margin: 1rem 0rem;
+            width: 30vw;
+            height: 40vh;
+            border-radius: .2rem;
+        }
+    }
+    .contenedor_marca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 2.5rem;
+            font-family: 'Merriweather', serif;
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: 'Merriweather', serif;
+        }
+    }
+}

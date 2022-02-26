@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 10px;    
+}
+.header__club{
+    display: flex;
+    flex-direction: column;
+    .contenedor__parrafo-iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        height: 5vh;
+        div .parrafo{
+            color:rgb(255, 240, 201);
+            font-size: 1rem;
+            margin-top: .3rem;
+        }
+        .contenedor__iconos{
+            a {
+                i{
+                    color: white;
+                    margin: .3rem .3rem;
+                }
+            }
+        }
+    }
+    .header__club-nav{
+        background-color: white;
+        border-bottom: solid .1rem black;
+        height: 8vh;
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            li{
+                margin: 1rem .6rem;
+                font-family: 'Merriweather', serif;
+                a{
+                    text-decoration: none;
+                    font-size: 1rem;
+                    color: black;
+                    }
+                } 
+            .grayskull{
+                a{
+                    color: black;
+                    background-color: rgb(255, 240, 201);
+                    padding: .7rem;
+                    border-radius: .3rem;
+                    &:hover{
+                    background-color: black;
+                    color: white;
+                    transition: all .4s;
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,26 +1,68 @@
-h1 {
-  text-align: center; }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 10px; }
 
 .header__club {
-  background-image: url(../multimedia/background/background_Cuiano_social_club.jpg); }
+  display: flex;
+  flex-direction: column; }
+  .header__club .contenedor__parrafo-iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    height: 5vh; }
+    .header__club .contenedor__parrafo-iconos div .parrafo {
+      color: #fff0c9;
+      font-size: 1rem;
+      margin-top: .3rem; }
+    .header__club .contenedor__parrafo-iconos .contenedor__iconos a i {
+      color: white;
+      margin: .3rem .3rem; }
+  .header__club .header__club-nav {
+    background-color: white;
+    border-bottom: solid .1rem black;
+    height: 8vh; }
+    .header__club .header__club-nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none; }
+      .header__club .header__club-nav ul li {
+        margin: 1rem .6rem;
+        font-family: 'Merriweather', serif; }
+        .header__club .header__club-nav ul li a {
+          text-decoration: none;
+          font-size: 1rem;
+          color: black; }
+      .header__club .header__club-nav ul .grayskull a {
+        color: black;
+        background-color: #fff0c9;
+        padding: .7rem;
+        border-radius: .3rem; }
+        .header__club .header__club-nav ul .grayskull a:hover {
+          background-color: black;
+          color: white;
+          transition: all .4s; }
 
-.header__Cuiano {
-  background-image: url(../multimedia/background/background_Barbero_Cuiano.jpg); }
+.contenedor .contenedor_logo {
+  display: flex;
+  justify-content: center; }
+  .contenedor .contenedor_logo .logo {
+    margin: 1rem 0rem;
+    width: 30vw;
+    height: 40vh;
+    border-radius: .2rem; }
 
-.header__dibunker {
-  background-image: url(../multimedia/background/background_Dibunker_Recordz.jpg); }
-
-.header__tatton {
-  background-image: url(../multimedia/background/background_Gaia.jpg); }
-
-.header__grayskull {
-  background-image: url(../multimedia/background/background_Grayskull.jpg); }
-
-.header__gaia {
-  background-image: url(../multimedia/background/background_Gaia.jpg); }
-
-p {
-  background-image: url(../multimedia/background/pag_en_construccion.jpg); }
-
-footer {
-  background-color: wheat; }
+.contenedor .contenedor_marca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contenedor .contenedor_marca h1 {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif; }
+  .contenedor .contenedor_marca p {
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif; }
