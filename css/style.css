@@ -1,3 +1,7 @@
+.contenedor__iconos a i {
+  color: white;
+  margin: .3rem .3rem; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -5,43 +9,40 @@
 body {
   font-size: 10px; }
 
-.header__club {
+.header {
   display: flex;
   flex-direction: column; }
-  .header__club .contenedor__parrafo-iconos {
+  .header .contenedor__parrafo-iconos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: black;
     height: 5vh; }
-    .header__club .contenedor__parrafo-iconos div .parrafo {
+    .header .contenedor__parrafo-iconos div .parrafo {
       color: #fff0c9;
       font-size: 1rem;
       margin-top: .3rem; }
-    .header__club .contenedor__parrafo-iconos .contenedor__iconos a i {
-      color: white;
-      margin: .3rem .3rem; }
-  .header__club .header__club-nav {
+  .header .header__nav {
     background-color: white;
     border-bottom: solid .1rem black;
     height: 8vh; }
-    .header__club .header__club-nav ul {
+    .header .header__nav ul {
       display: flex;
       justify-content: center;
       list-style: none; }
-      .header__club .header__club-nav ul li {
+      .header .header__nav ul li {
         margin: 1rem .6rem;
         font-family: 'Merriweather', serif; }
-        .header__club .header__club-nav ul li a {
+        .header .header__nav ul li a {
           text-decoration: none;
           font-size: 1rem;
           color: black; }
-      .header__club .header__club-nav ul .grayskull a {
+      .header .header__nav ul .start a {
         color: black;
         background-color: #fff0c9;
         padding: .7rem;
         border-radius: .3rem; }
-        .header__club .header__club-nav ul .grayskull a:hover {
+        .header .header__nav ul .start a:hover {
           background-color: black;
           color: white;
           transition: all .4s; }

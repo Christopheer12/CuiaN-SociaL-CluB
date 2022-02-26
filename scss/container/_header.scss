@@ -5,7 +5,7 @@
 body{
     font-size: 10px;    
 }
-.header__club{
+.header{
     display: flex;
     flex-direction: column;
     .contenedor__parrafo-iconos{
@@ -19,16 +19,9 @@ body{
             font-size: 1rem;
             margin-top: .3rem;
         }
-        .contenedor__iconos{
-            a {
-                i{
-                    color: white;
-                    margin: .3rem .3rem;
-                }
-            }
-        }
+        
     }
-    .header__club-nav{
+    .header__nav{
         background-color: white;
         border-bottom: solid .1rem black;
         height: 8vh;
@@ -45,7 +38,7 @@ body{
                     color: black;
                     }
                 } 
-            .grayskull{
+            .start{
                 a{
                     color: black;
                     background-color: rgb(255, 240, 201);
